@@ -3,7 +3,7 @@ import turtle
 def drawSpiral(t, angle):
     ''' takes a turtle, t, and an angle in degrees '''
     length = 1
-    for i in range(84):
+    for i in range(84): y
         t.forward(length)
         t.right(angle)
         length = length + 2
@@ -27,8 +27,8 @@ drawSpiral(guido, 90)
 
 ## draw the second spiral ##
 # position guido
-guido.penup()
 guido.home()
+guido.penup()
 guido.forward(90)
 guido.pendown()
 
